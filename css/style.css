@@ -1,0 +1,739 @@
+/* Styling the css for the project task */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Typography */
+
+.description {
+    font-size: 1rem;
+    margin-left: 1em;
+    font-weight: 400;
+}
+
+.icons-description {
+    font-size: .8em;
+}
+
+.icon-main-description {
+    color: #8593AD;
+    font-size: .8rem;
+}
+
+h1 {}
+
+span {
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+
+/* Stylying the body */
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media (max-width:800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .rightcolumn,
+    .leftcolumn,
+    main {
+        width: 100% !important;
+    }
+}
+
+.leftcolumn {
+    width: 20%;
+    background: #F9F9F9;
+    height: 100vh;
+    /* padding: .75rem 1rem; */
+    overflow-y: auto;
+}
+
+main {
+    width: 50%;
+    background: #FFFFFF;
+    height: 100vh;
+    padding: 1.25rem 2.25rem;
+    overflow-y: auto;
+}
+
+.rightcolumn {
+    width: 30%;
+    background: #F9FAFF;
+    height: 100vh;
+    padding: 1.25rem 2.25rem;
+    overflow-y: auto;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+
+/* Icons style */
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-one {
+    border-radius: 10px;
+    background: #ECEFF8;
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    titransion: all 0.5s ease;
+}
+
+.child-one:hover {
+    background: #52459F;
+    color: #FFFFFF;
+}
+
+.child-one .icon-tabler:hover {
+    color: #FFFFFF;
+}
+
+
+/* .child-two {
+    background: #52459F;
+} */
+
+.sidebar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.column-icons {
+    margin-left: 1em;
+}
+
+.column-icons {
+    margin-right: 1em;
+}
+
+.first-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-second-column {
+    margin-top: 40px;
+}
+
+
+/* Styling the image of left column */
+
+.get-pro {
+    width: 180px;
+    height: 250px;
+    background: #CFC8FE;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    position: relative;
+    box-shadow: 0px 5px 5px #cfc8fe3b;
+}
+
+.after-class {
+    height: 100px;
+    width: 160px;
+    background: #E4E0FB;
+    border-radius: 15px;
+    margin: -123px auto 0;
+}
+
+.logo-image {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.btn {
+    background: #FFFFFF;
+    padding: 18px;
+    color: #8897F4;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+    width: 80%;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+/* .btn::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    z-index: -1;
+} */
+
+.btn:hover {
+    background: #52459F;
+    color: #FFFFFF;
+}
+
+
+/* Styling the main content */
+
+.search {
+    /* width: 80%;
+    margin: 20px auto 0; */
+    position: relative;
+}
+
+.search input[type=search] {
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    padding-left: 35px;
+    background: #F7F8FA;
+}
+
+.icon-tabler-search {
+    position: absolute;
+    top: 9px;
+    margin-left: 8px;
+}
+
+.main-heading {
+    /* padding: 40px 0px 0px 40px; */
+    margin-top: 50px;
+    position: relative;
+}
+
+.radius-div {
+    background: #FA896B;
+    width: 28px;
+    height: 28px;
+    border-radius: 60%;
+    border: none;
+    position: absolute;
+    top: -10px;
+    left: 125px;
+}
+
+.radius-div .number {
+    text-align: center;
+    font-size: .7em;
+    color: white;
+    margin-top: 5px;
+}
+
+.css-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.column {
+    width: 180px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.column1 {
+    background: #FDEDD4;
+    display: flex;
+}
+
+.column2 {
+    background: #FDEDD4;
+    display: flex;
+}
+
+.column3 {
+    background: #FDEDD4;
+    display: flex;
+}
+
+.dotted-icon {
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-margin {
+    margin-left: 30px;
+}
+
+.icon-left-margin {
+    margin-left: 15px;
+}
+
+.column2 {
+    background: #FDE4F9;
+}
+
+.column3 {
+    background: #B5E0E9;
+}
+
+.crypto {
+    font-weight: bold;
+    font-size: .8em;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.bitcoin-code {
+    color: #45427E;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.bitcoin-price {
+    color: #45427E;
+    font-size: .6em;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.icon-style {
+    margin-left: 10px;
+}
+
+.border-bottom {
+    background: #F7F8FA;
+    width: 35%;
+    border-radius: 10px;
+    height: 5px;
+    border: none;
+    margin: 50px auto 0;
+}
+
+.middle-border {
+    background: #3836FC;
+    border-radius: 10px;
+    width: 25%;
+    margin: 0 auto;
+    border: none;
+    padding: 3px;
+}
+
+.arrow-narrow-down {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    padding: 12px;
+    margin: 30px auto 0;
+    box-shadow: 15px 15px 40px #F2F2F2;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-narrow-down:hover {
+    background: #52459F;
+}
+
+
+/* .arrow-narrow-down,
+svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/* Style the latest activity of the main section */
+
+.latest-activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-activity {
+    display: flex;
+    margin-left: 15px;
+    /* margin-right: 15px; */
+}
+
+.second-activity .text-activity {
+    margin-right: 200px;
+    margin-top: 70px;
+}
+
+.text-activity a:hover {
+    color: black;
+}
+
+.second-activity p a {
+    color: #82878D;
+}
+
+.time-activity {
+    margin-top: -15px;
+    color: #6D767D;
+    transition: all 0.5s ease;
+}
+
+.time-activity:hover {
+    color: black;
+}
+
+.first-icon-margin {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-table {
+    margin-left: 15px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-change {
+    color: #80878D;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.main-table {
+    margin-top: 30px;
+}
+
+.table-margin {
+    margin-top: 20px;
+}
+
+.child-one-color {
+    background: #FFEFE8;
+}
+
+
+/* Styling the right column of the web page */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+ul li a {
+    /* padding: 10px; */
+    text-decoration: none;
+    color: #7f8583;
+    font-size: 1.3rem;
+    transition: all 0.5s ease;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.nav-image {
+    width: 50px;
+    height: 50px;
+    /* margin-right: 35px; */
+    border-radius: 10px;
+}
+
+.nav-li-2 {
+    margin-left: 80px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    /* margin-left: 40px; */
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.h1-header {
+    color: #000000;
+}
+
+.h1-header:hover {
+    opacity: 0.6;
+    transition: all 0.5s ease;
+}
+
+.header-btn {
+    /* margin-right: 40px; */
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #f6f6fa;
+    color: #020204;
+    font-size: 1rem;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background: #52459F;
+    color: #FFFFFF;
+}
+
+.coin-main-box {
+    /* width: 450px; */
+    background: #FBFBFB;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #E0E7EE;
+    /* transition: background-color 2s ease-out; */
+    transition: all 0.5s ease;
+}
+
+.coin-main-box:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 13px #F4F4F4;
+    border-color: transparent;
+}
+
+.coin-box {
+    width: 38px;
+    height: 38px;
+    background: #F8896B;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    transition: all 0.5s ease;
+}
+
+.coin-box:hover {
+    background: #52459F;
+}
+
+.coin-box-class {
+    background: #2FE4C5;
+}
+
+.coin-first-sub-row {
+    display: flex;
+    align-items: center;
+    min-width: max-content;
+    /* justify-content: space-between; */
+    /* width: 45%; */
+}
+
+.coin-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-btn {
+    padding: 5px 10px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0px 10px 10px #F4F4F4;
+    min-width: max-content;
+}
+
+.coin-name-style {
+    font-weight: bolder;
+    margin-right: 0.5rem;
+}
+
+.coin-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 60%;
+    margin: -5px;
+    border: 3px solid white;
+}
+
+.coin-img img {
+    height: 28px;
+    width: 28px;
+    border-radius: 60%;
+    object-fit: cover;
+}
+
+.coin-second-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-circle-img {
+    display: flex;
+    border: 2px solid white;
+}
+
+.coin-img-1 {
+    background: #FFDFE4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-img-number {
+    text-align: center;
+    color: #FD7583;
+    font-size: .8rem;
+}
+
+.new-transfer {
+    /* width: 450px; */
+    background: #D8D6EC;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.transfer-icon {
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    cursor: auto;
+}
+
+.transfer-icon:hover {
+    background: #cbc9dd;
+}
+
+.transfer-sign {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-left: 100px;
+    width: 33%;
+    justify-content: space-between;
+    min-width: max-content;
+}
+
+.transfer-text {
+    color: #6A5FAD;
+    font-weight: bold;
+}
+
+.wallet-class {
+    /* padding: 5px; */
+}
+
+.last-column-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-icon-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.icons-alignment {
+    line-height: 0%;
+}
+
+.icons-spaces {
+    margin-left: 10px;
+}
+
+.coin-small-name {
+    color: #b5afc5;
+    font-size: .7rem;
+    /* font-weight: 600; */
+}
+
+.icons-alignment {
+    color: #685B84;
+    font-size: 1.1rem;
+}
+
+.child-one:hover svg {
+    stroke: white;
+}
+
+.arrow-narrow-down:hover svg {
+    stroke: white;
+}
+
+.transfer-icon:hover svg {
+    stroke: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
